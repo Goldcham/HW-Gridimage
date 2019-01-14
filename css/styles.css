@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body *{ box-sizing: border-box }
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+.wrapper{
+    width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.row{
+    overflow: auto;
+}
+
+.cell{
+    float: left;
+    outline: 10px solid #ffffff;
+    outline-offset: -10px;
+}
+
+.size-600-320,.size-600-150{width: 50%;}
+.size-200-165{width: 33.3%;}
+.size-400-185{width: 33.3%;}
+.size-300-150{width: 50%;}
+.size-200-195{width: 16.66%;}
+
